@@ -1749,7 +1749,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 3.0049992, z: 0}
-  m_LocalScale: {x: 1, y: 5, z: 1}
+  m_LocalScale: {x: 0.5, y: 5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 349555449}
@@ -2734,8 +2734,8 @@ MonoBehaviour:
   pickupArea: {fileID: 279005051}
   horizontalBar: {fileID: 640678820}
   moveSpeed: 2
-  pickupRadius: 0.4
   carryHeight: 2
+  startDelay: 9
 --- !u!4 &1919589487
 Transform:
   m_ObjectHideFlags: 0
