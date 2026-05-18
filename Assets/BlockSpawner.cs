@@ -19,15 +19,18 @@ public class BlockSpawner : MonoBehaviour
 
     private void SpawnBlock()
     {
+        // Maar een max aantal blokken spawnen
         if (blocksSpawned >= maxBlocks)
         {
             CancelInvoke(nameof(SpawnBlock));
             return;
         }
 
+        // Willekeurige x en z berekenen
         float x = Random.Range(xRange.x, xRange.y);
         float z = Random.Range(zRange.x, zRange.y);
 
+        // Blokje degelijk spawnen
         Vector3 spawnPosition = new Vector3(x, spawnHeight, z);
         Instantiate(blockPrefab, spawnPosition, Quaternion.identity);
 
