@@ -7,6 +7,7 @@ public class ArmController : MonoBehaviour
     public Transform dropPoint;
     public Transform pickupArea;
     public Transform horizontalBar;
+
     private Transform targetBlock;
 
     // Variabelen voor de beweging
@@ -76,6 +77,7 @@ public class ArmController : MonoBehaviour
                 break;
 
             case State.MoveUpAfterPickup:
+                // Omhoog heffen van de arm
                 Vector3 carryPosition = gripperPoint.position;
                 carryPosition.y = carryHeight;
 
@@ -247,7 +249,6 @@ public class ArmController : MonoBehaviour
     {
         if (dropPoint == null)
         {
-            Debug.LogWarning($"{nameof(ArmController)} heeft geen dropPoint ingesteld.");
             return gripperPoint.position;
         }
 
