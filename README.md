@@ -37,5 +37,5 @@ Het gedrag van de robotarm is volledig gestructureerd via een Finite State Machi
 * **Drop:** Het blokje loskoppelen (physics inschakelen, zwaartekracht aanzetten) zodat het netjes in het grid van de bak valt.
 
 ## Problemen
-Een van de moeilijkheden die we ondervonden was de objecten, voornamelijk van de robotarm, goed laten aligneren met de andere componenten. Dit was vooral omdat deze niet automatisch wouden 'snappen' tegen de rest. 
+Een van de moeilijkheden die we ondervonden was de objecten, voornamelijk van de robotarm, goed laten aligneren met de andere componenten. Dit was vooral omdat deze niet automatisch wouden 'snappen' tegen de rest. \
 Eerst hadden we het probleem dat deze ook de blokjes die de robot net had gedropped, dat de robot dit blokje opnieuw zag als dichtstbijzijnde blokje. Daarom hebben we geïmplementeerd dat deze alleen blokjes mag opnemen in de pickup area.
