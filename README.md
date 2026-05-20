@@ -1,4 +1,4 @@
-# Verslag
+# Verslag (Demeer, Lambrichts)
 
 GitHub link: https://github.com/JitseLambrichts/Taak4VisualComputing
 
