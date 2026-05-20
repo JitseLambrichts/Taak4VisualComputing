@@ -1,5 +1,7 @@
 # Verslag
 
+GitHub link: https://github.com/JitseLambrichts/Taak4VisualComputing
+
 ## Implementatie plan
 We zijn begonnen met een heel simpele opzet door eerst 2 bakjes te ontwerpen, en gewoon een zwevende grijper. Hierna hebben we ervoor gezorgd dat de blokjes, op een willekeurige positie gespawned werden in eenzelfde bakje. Wanneer dit werkte, hebben we een C# script geschreven dat ervoor zorgde dat de grijper de blokjes kon beginnen opnemen. Eerst gebeurde dit via een direct pad (x, y en z coordinaten tegelijkertijd), waarna we dit hebben moeten opsplitsen in de verschillende richtingen (x, y, z apart). Wanneer dit volledig functioneerde, hebben we het frame van de arm volledig gebouwd. Wanneer de volledige constructie in orde was, moesten we nog de verschuifbare componenten van de robot arm (horizontale en verticale baar) mee laten verplaatsen.
 
